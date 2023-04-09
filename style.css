@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: 48px;
+    background-color: aquamarine;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 18px;
+    width: 100%;
+    height: 48px;
+}
+
+header nav .nav-right--section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    font-size: 1.3rem;
+    font-weight: 400;
+    list-style: none;
+    background-color: darkorange;
+}
+
+header nav .nav-right--section a {
+    margin: 10px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+nav .nav-right--section .menu-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    background-image: url(../assets/icons/icons8-squared-menu-30.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav .nav-right--section img {
+    border-radius: 5rem;
+    margin-left: 5px;
+}
+
+main {
+    text-align: center;
+}
+
+main .main-logo {
+    width: 272px;
+    height: 92px;
+    margin: 0 auto;
+    margin-top: 108px;
+    margin-bottom: 28px;
+    background-color: #dfe1e5;
+}
+
+.main-input {
+    width: max-content;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    background-color: burlywood;
+}
+
+.main-input .main-input--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 584px;
+    height: 46px;
+    border: #dfe1e5 solid 1px;
+}
+
+.main-input .main-input--container .search-icon {
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/icons/icons8-search.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-input .main-input--container .voice-icon {
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/icons/Google_mic.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.main-input input {
+    width: 510px;
+    height: 42px;
+    padding: 0 10px;
+    font-size: 1.6rem;
+    border: none;
+    outline: none;
+}
+
+.main-input .main-input--container:hover {}
+
+.main-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 584px;
+    height: 46px;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+.main-buttons button {
+    min-width: 54px;
+    width: max-content;
+    height: 36px;
+    padding: 0 16px;
+    margin: 11px 4px;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #3c4043;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.main-buttons button:hover {
+    box-shadow: 0 1px 1px 0 #20212447;
+    border: #dfe1e5 1px solid;
+}
+
+footer {
+    position: absolute;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    bottom: 0px;
+    width: 100%;
+    height: 53px;
+    align-items: center;
+    font-size: 1.4rem;
+    background-color: rgb(255, 186, 159);
+}
+
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+}
+
+.footer-left {
+    align-content: center;
+    justify-self: left;
+    background-color: violet;
+}
+
+.footer-right {
+    align-content: center;
+    justify-self: right;
+    background-color: blue;
+}
+
+footer ul li a {
+    margin: 10px;
+    color: rgba(0, 0, 0, .54);
+    background-color: rosybrown;
+}
